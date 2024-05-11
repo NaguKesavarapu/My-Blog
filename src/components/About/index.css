@@ -1,0 +1,36 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.about-img {
+  margin-top: 40px;
+  width: 30%;
+}
+.about-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #3d3d3d;
+}
+.about-paragraph {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  text-align: center;
+  color: red;
+}
+
+@media screen and (min-width: 576px) {
+  .about-img {
+    width: 150px;
+    height: 160px;
+    margin-top: 20px;
+  }
+  .about-heading {
+    font-size: 36px;
+  }
+  .about-paragraph {
+    font-size: 28px;
+  }
+}
